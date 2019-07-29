@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800');
+
+html {
+    height: 100%;
+}
+body {
+    font-family:"Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight:400;
+    line-height: 1.42857;
+    color: #263238;
+    overflow:hidden;
+}
+ul li { list-style: none; }
+p{margin:0px; padding:0px; }
+ul{padding:0; margin:0}
+@-ms-viewport { width: auto !important; }
+a,
+button {
+    outline: 0 !important;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+a, a:hover { color: #00B7FF; }
+h1, h2, h3, h4, h5, h5 { color:#294F76; font-family: 'Montserrat', arial, sans-serif; font-weight: 300; margin: 0px; padding: 0px; }
+button, input[type="button"], input[type="submit"]{ cursor:pointer; }
+.max-wh-120{ width:120px; height:120px; }
+.th-lg { height: 45px; }
+.th-sm { height: 24px; }
+.img-full-width { width: 100%; }
+.form-section input[readonly], .form-section select[readonly], .form-section textarea[readonly] {
+    background-color: #eee;
+    color: #777;
+    border-color: #ccc;
+}
+.my-auto {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+}
+.auto-h { margin: 0px auto; }
+.ml-xs { margin-left: -14px; }
+.h-sm { height: 35px; }
+.p-10 { padding: 10px !important; }
+.modal-xl {
+    max-width: 700px;
+    margin: 30px auto;
+    /* margin-left: 4% !important; */
+}
+.w-auto { width: inherit !important; }
+.mh-550 { min-height: 550px; }
+
+
+
+/*******custom css*********/
+
+/****************************************************************
+***********************Media Query Start******************************/
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (max-width: 992px) {
+     
+}
+@media screen and (min-width: 768px) {
+   
+}
+    
+@media screen and (min-width: 576px) {
+   
+}
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
+@media screen and (max-width:320px) {
+	
+}
+
+
+
