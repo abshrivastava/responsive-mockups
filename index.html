@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>carepoynt</title>
+    <title>Welcome !!!</title>
 
     <!-- Include css style sheet  -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -23,6 +23,23 @@
 
 <body>
     <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="desktop-frame" onclick="dframe()">
+                        <!-- <iframe src="wwww.google.com"></iframe> -->
+                        <iframe id= "d_frame"></iframe>
+                        <!-- <img src="./img/desktop.PNG" /> -->
+                        <!-- <a href="http://google.com"></a> -->
+                        
+                    </div>
+                    <div id="desktop-md-frame"><img src="./img/desktop-md.PNG" /></div>
+                    <div id="tablet-frame"><img src="./img/ipad.PNG" /></div>
+                    <div id="mobile-frame"><img src="./img/mobile.PNG" /></div>
+                </div>
+            </div>
+
+        </div>
         <!-- Start Left side bar -->
        <h1 class="text-center text-success mt-4">Welcome!!!</h1>
         <!-- End of middle section -->
@@ -32,11 +49,38 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
+
+    <script>
+        //document.getElementById('desktop-frame').contentWindow.document.getElementById('http://www.google.com');
+    function dframe() {
+        alert("go");
+        document.getElementById("d_frame").src="https://www.google.com/webhp?igu=1";
+        //window.location.href = 'https://google.com/';
+        // https://www.dofactory.com/tutorial/javascript-functions
+
+//         function action (callback, x, y) {
+//    var result = callback(x, y);
+//    alert(result);
+// }
+// function add(x, y) {
+//     return x + y;
+// }
+// function multiply(x, y) {
+//     return x * y;
+// }
+// action(add, 2, 3);           // => 5
+// action(multiply, 2, 3);      // => 6
+    }
+    </script>
 </body>
 
 </html>

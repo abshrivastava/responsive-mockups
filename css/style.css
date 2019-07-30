@@ -53,6 +53,18 @@ button, input[type="button"], input[type="submit"]{ cursor:pointer; }
 .mh-550 { min-height: 550px; }
 
 
+.container { border: 1px solid #000; background-color: #f3f3f3; position: relative; }
+
+/* .desktop-frame { position: relative; }
+.desktop-md-frame { position: relative; }
+.tablet-frame { position: relative; }
+.mobile-frame { position: relative; } */
+#desktop-frame { height: 250px; }
+#desktop-frame > iframe { width: 240px; height: 240px; }
+
+#tablet-frame > img { position: absolute; }
+#mobile-frame > img { position: absolute; }
+#desktop-md-frame > img { position: absolute; }
 
 /*******custom css*********/
 
